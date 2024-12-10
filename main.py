@@ -33,7 +33,7 @@ if __name__ == '__main__':
         y_label='Mean time (secs)'
     )    
     generate_line_chart(
-        csv_path='./data/indexing_mean.csv',  
+        csv_path='./data/inserting_mean.csv',  
         title='Mean embedding insertion time',
         desc='This is the average time to insert an embedding with varying numbers of embeddings and values of k.',
         x_label='Number of embeddings', 
